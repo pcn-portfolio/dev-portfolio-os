@@ -46,7 +46,7 @@ export default function Dashboard() {
                 <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-sm text-primary">
                   <span className="w-2 h-2 bg-primary rounded-full animate-pulse" /> Available for work
                 </div>
-                <h1 className="text-5xl font-bold neon-text">Alex Developer</h1>
+                <h1 className="text-5xl font-bold neon-text">Peter Nwadiei</h1>
                 <p className="text-xl text-muted-foreground">Full-Stack Engineer & Cloud Architect</p>
                 <div className="flex gap-3 pt-4">
                   <Button variant="neon">View Projects <ArrowRight className="ml-2 w-4 h-4"/></Button>
@@ -142,7 +142,7 @@ export default function Dashboard() {
               <CardHeader><CardTitle>Settings</CardTitle></CardHeader>
               <CardContent className="space-y-4">
                  <div><label className="text-sm text-muted-foreground">Name</label><input className="w-full mt-1 p-2 bg-muted/50 rounded" defaultValue="Alex Dev" /></div>
-                 <div><label className="text-sm text-muted-foreground">GitHub</label><input className="w-full mt-1 p-2 bg-muted/50 rounded" defaultValue="alexdev" /></div>
+                 <div><label className="text-sm text-muted-foreground">GitHub</label><input className="w-full mt-1 p-2 bg-muted/50 rounded" defaultValue="peternwadiei" /></div>
                  <Button>Save</Button>
               </CardContent>
             </Card>
